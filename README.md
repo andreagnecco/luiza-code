@@ -1,1 +1,1 @@
-# luiza-code
+# luiza-code-atividades
