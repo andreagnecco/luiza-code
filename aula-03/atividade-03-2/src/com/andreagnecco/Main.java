@@ -22,7 +22,9 @@ public class Main {
 
         for (int count = n1; count < n2; count++) {
             if (count % div == 0) {
-                System.out.printf("%d é um número divisível por %d entre %d e %d.\n",count,div, n1, n2);
+                System.out.printf("O número %d é divisível por %d\n",count, div);
+            } else {
+                System.out.printf("O número %d não é divisível por %d\n", count,div);
             }
         }
 
