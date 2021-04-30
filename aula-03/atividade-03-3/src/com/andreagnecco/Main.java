@@ -44,6 +44,7 @@ public class Main {
 
             } else {
                 System.out.println("Operador inválido, tente novamente.\n");
+
             }
 
         } while (operator != 5);
