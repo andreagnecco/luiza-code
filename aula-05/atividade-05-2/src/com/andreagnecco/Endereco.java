@@ -18,6 +18,10 @@ public class Endereco {
 
     //methods
 
+    public String toString(){
+        return logradouro + ", " + cidade + " - " + estado;
+    }
+
     public String consultaLogradouro() {
         return logradouro;
     }

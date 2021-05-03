@@ -20,4 +20,7 @@ public class Produto {
         return nome;
     }
 
+    public long getCodigo() {
+        return codigo;
+    }
 }

@@ -22,7 +22,7 @@ public class Compra {
     }
 
     public String verificarCompra() {
-        return pessoa.consultaNome() + "\n" + produto.consultaNome();
+        return produto.consultaNome();
     }
 
 }

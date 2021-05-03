@@ -14,14 +14,18 @@ public class Pessoa {
         this.nome = nome;
         this.numero = numero;
         this.endereco = endereco;
+
     }
+
 
     //methods
 
+    // mesma coisa que get Endereco
     public Endereco consultaEndereco() {
         return endereco;
     }
 
+    // mesma coisa que get Nome
     public String consultaNome() {
         return nome;
     }
