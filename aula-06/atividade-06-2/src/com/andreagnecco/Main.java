@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Professor professor = new Professor();
+        Aluna aluna = new Aluna();
         Scanner sc = new Scanner(System.in);
 
         professor.setNome("Tainá");
@@ -19,7 +20,25 @@ public class Main {
 
         professor.setSalarioProfessor(aulas);
 
-        System.out.printf("O salário da professora %s é %.2f",professor.getNome(),professor.getSalario());
+        System.out.printf("O salário da professora %s é %.2f.\n",professor.getNome(),professor.getSalario());
+
+        System.out.println("Agora, informe sua primeira nota:\n");
+        double nota1 = sc.nextDouble();
+        System.out.println("Agora, informe sua segunda nota:\n");
+        double nota2 = sc.nextDouble();
+
+        aluna.calcularMedia(nota1,nota2);
+
+        System.out.printf("Sua média foi %.2f\n",aluna.getMedia());
+
+        if (aluna.getMedia() >= 7) {
+            System.out.println("Aprovada!");
+        } else {
+            System.out.println("Reprovada!");
+        }
+
+
+
 
     }
 }
